@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+    font-family: 'Bruno Ace SC', cursive;
+}
+body{
+    
+    background-image: url(/images/bg.jpg);
+    margin: 0px;
+    padding: 0px;
+    color: white ;
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;    
+    /* border: 2px solid red; */
+    
+   
+}
+.left img{
+    width: 60px;
+    filter: invert(100%);
+    padding: 0px 22px;
+}
+.left div{
+    text-align: center;
+    line-height: 35px;
+
+}
+
+
+
+
+.mid{
+  
+    display: block;
+    width: 62%;
+    margin: 18px auto;
+    /* border: 2px solid rgb(123, 248, 123); */
+   
+
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px ;
+
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 32px 30px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+   text-decoration:underline;
+}
+
+.btn{
+    margin: 14px 9px;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 1px 14px ;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.btn:hover{
+    color:rgb(255, 0, 0)
+}
+
+
+
+.container{
+   
+    margin: 100px 70px;
+    padding: 34px 34px ;
+    /* border: 2px solid greenyellow; */
+    border-radius: 20px;
+    width: 43%;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 55%;
+    padding: 4px 50px;
+    border :2px solid black;
+    margin: 2px 3px;
+    font-size: 20px;
+    border-radius: 14px;
+}
+.container h1{
+    color: skyblue;
+
+}
+.container h1:hover {
+    color: rgb(37, 233, 139);
+}
+.container button{
+    margin: 8px 2px;
+    padding:  7px 36px ;
+    background-color: rgb(71, 184, 221);
+}
+.h1-group{
+    /* border: 2px solid red; */
+    width: 72%;
+}
